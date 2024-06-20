@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace LabWork14
 {
-    internal class Program
+    public class Program
     {
         static List<SortedDictionary<string, Card>> Bank;
 
@@ -53,7 +53,7 @@ namespace LabWork14
             }
         }
 
-        static List<SortedDictionary<string, Card>> InitializeBank()
+        public static List<SortedDictionary<string, Card>> InitializeBank()
         {
             // Создание коллекции Bank
             List<SortedDictionary<string, Card>> bank = new List<SortedDictionary<string, Card>>();
